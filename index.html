@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="headerContainer">
+            <h1>Student Grade Table</h1>
+            <h2>Average Grade
+                <div class="averageGradeInput"></div>
+            </h2>
+        </div>
+        <div class="contentContainer">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Grade</th>
+                    <th>Operations</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script>
-        $.ajax({
-            url: 'https://sgt.lfzprototypes.com/api/users',
-            method: "POST",
-            data: {
-                firstName: "Mason",
-                lastName: "Keiser",
-                cohort: "c04.20"
-            },
-            success: function (response) {
-                console.log(response)
-            }
-        })
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

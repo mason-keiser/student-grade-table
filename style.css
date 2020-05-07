@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    height: 85vh;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 4px black;
+    font-size: 40px;
+}
