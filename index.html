@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Grade <Table></Table></title>
+    <title>Student Grade Table</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.js">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-        <header class="header">
+    <div class="container">
+        <div class="row header">
+            <div class="col">
             <h1>Student Grade Table</h1>
-        </header>
-        <table class="table">
-            <thead class="tableHead">
+                <div class="col AverageGrade">
+                    <h3>Average Grade</h3>
+                </div>
+            </div>
+            
+        </div>
+        <table class="row table">
+            <thead class="col tableHead">
                 <tr>
                     <th>Name</th>
                     <th>Course</th>
                     <th>Grade</th>
                 </tr>
             </thead>
-            <tbody class="tableBody">
+            <tbody class=" tableBody">
                 <tr class="row">
                     <td></td>
                     <td></td>
@@ -38,6 +45,7 @@
                 </tr>
             </tbody>
             </table>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="Components/app.js"></script>

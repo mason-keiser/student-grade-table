@@ -1,14 +1,13 @@
 table > thead {
     border-bottom: 1px solid black;
 }
-header {
+.header {
     display: inline-block;
 }
 .table {
     width: 65%;
     height: 200px;
-    margin-left: 5%;
-    margin-right: 15%;
+    
 }
 thead {
     font-size: 20px;
