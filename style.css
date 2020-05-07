@@ -1,13 +1,30 @@
-body {
-    width: 100%;
-    height: 85vh;
+table > thead {
+    border-bottom: 1px solid black;
 }
-
-.headerContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid 4px black;
-    font-size: 40px;
+header {
+    display: inline-block;
+}
+.table {
+    width: 65%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+thead {
+    font-size: 20px;
+    font-weight: bolder;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+td {
+    text-align: center;
+}
+h1 { 
+    font-size: 4rem;
+    padding-bottom: 20px;
+    margin-left: 5rem;
+}
+.row {
+    margin-top: 30px;
 }

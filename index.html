@@ -3,31 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.css">
+    <title>Student Grade <Table></Table></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.js">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-    <div class="container">
-        <div class="headerContainer">
+        <header class="header">
             <h1>Student Grade Table</h1>
-            <h2>Average Grade
-                <div class="averageGradeInput"></div>
-            </h2>
-        </div>
-        <div class="contentContainer">
-            <table>
+        </header>
+        <table class="table">
+            <thead class="tableHead">
                 <tr>
                     <th>Name</th>
                     <th>Course</th>
                     <th>Grade</th>
-                    <th>Operations</th>
                 </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
             </table>
-        </div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="Components/app.js"></script>
+    <script src="Components/grade-table.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
