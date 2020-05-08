@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Grade Table</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row header">
-            <div class="col">
-            <h1>Student Grade Table</h1>
-                <div class="col AverageGrade">
-                    <h3>Average Grade</h3>
+    <header>
+        <div class="Container">
+            <div class="row">
+                <div class="col-8">
+                    <h1>Student Grade Table</h1>
+                </div>
+                <div class="col-4 avgGrade">
+                    <h3>Average Grade <span class="badge badgepill badge-secondary">84</span></h3>
                 </div>
             </div>
-            
         </div>
-        <table class="row table">
+    </header>
+        <table class="table">
             <thead class="col tableHead">
                 <tr>
                     <th>Name</th>
@@ -45,11 +46,12 @@
                 </tr>
             </tbody>
             </table>
-    </div>
+ 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="Components/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="Components/grade-table.js"></script>
+    <script src="Components/page-header.js"></script>
+    <script src="Components/app.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

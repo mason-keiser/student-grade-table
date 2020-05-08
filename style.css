@@ -1,8 +1,12 @@
 table > thead {
     border-bottom: 1px solid black;
 }
-.header {
-    display: inline-block;
+header {
+    width: 60%;
+}
+.avgGrade {
+  float: right;
+  margin-bottom: 1.5%;
 }
 .table {
     width: 65%;
@@ -16,9 +20,7 @@ thead {
 tr:nth-child(even) {
     background-color: lightgrey;
 }
-td {
-    text-align: center;
-}
+
 h1 { 
     font-size: 4rem;
     padding-bottom: 20px;
