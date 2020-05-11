@@ -1,13 +1,13 @@
 class App {
-    constructor (gradeTable,pageHeader){
+    constructor (gradeTable,pageHeader,gradeForm){
         this.gradeTable = gradeTable;
+        this.gradeForm = gradeForm;
+        this.pageHeader = pageHeader;
         this.handleGetGradesError = this.handleGetGradesError.bind(this);
         this.handleGetGradesSuccess = this.handleGetGradesSuccess.bind(this);
-        this.pageHeader = pageHeader;
         this.createGrade = this.createGrade.bind(this);
         this.handleCreateGradeError = this.handleCreateGradeError.bind(this);
         this.handleCreateGradeSuccess = this.handleCreateGradeSuccess.bind(this);
-        this.gradeForm = this.gradeForm;
     }
     handleGetGradesError(error) {
         console.error(error);

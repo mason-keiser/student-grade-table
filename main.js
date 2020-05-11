@@ -6,8 +6,8 @@ var pageHeader = new PageHeader(header);
 
 var newGradeTable = new GradeTable(tableElement);
 
-var gradeForm = new GradeForm(form);
+var newGradeForm = new GradeForm(form);
 
-var application = new App(newGradeTable, pageHeader, gradeForm);
+var application = new App(newGradeTable, pageHeader, newGradeForm);
 
     application.start();

@@ -32,8 +32,13 @@ h1 {
 button {
     padding-top: 1rem;
     box-shadow: 4px 4px grey;
+    margin-top: 2rem;
 }
-.fas {
-    padding-right: 7px;
-    padding-top: 10px;
+.fas{
+    padding: 10px;
+    color: black;
+    min-width: 50px;
+    text-align: center;
 }
+
+
