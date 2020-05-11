@@ -1,7 +1,7 @@
 var tableElement = document.querySelector('table');
 var header = document.querySelector('header');
 var form = document.querySelector('form');
-var noGradesElement = document.getElementById('grades-notifier')
+var noGradesElement = document.querySelector('p');
 
 var pageHeader = new PageHeader(header);
 
